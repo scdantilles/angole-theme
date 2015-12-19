@@ -1,0 +1,36 @@
+header#navbar {
+
+}
+
+header#navbar .logo {
+  line-height: 100px;
+  margin: 0;
+}
+
+header#navbar .name {
+  font-size: 34px;
+  color: #0096a6;
+  line-height: 100px;
+  height: 100px;
+  padding: 0;
+  margin-left: 30px;
+}
+
+footer {
+  background-color: #a3e7f0;
+}
+
+.region-footer .block {
+  position: relative;
+  float: left;
+  width: 25%;
+}
+
+.region-footer .block h2 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+footer section#block-block-1 {
+  margin-top: 250px;
+}
