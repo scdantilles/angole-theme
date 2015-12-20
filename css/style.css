@@ -1,13 +1,9 @@
-header#navbar {
-
-}
-
-header#navbar .logo {
+header#titlebar .logo {
   line-height: 100px;
   margin: 0;
 }
 
-header#navbar .name {
+header#titlebar .name {
   font-size: 34px;
   color: #0096a6;
   line-height: 100px;
@@ -16,14 +12,41 @@ header#navbar .name {
   margin-left: 30px;
 }
 
-footer {
+header#page-header {
+  background-color: #28afcd;
+  color: white;
+}
+
+header#page-header .region-header {
+  padding: 30px 15%;
+}
+
+header#page-header .region-header label {
+  display: none;
+}
+
+header#navbar {
+  background-color: #1d8699;
+  color: white;
+  margin-bottom: 30px;
+}
+
+header#navbar a {
+  font-size: 18px;
+  color: white;
+}
+
+.footer {
   background-color: #a3e7f0;
+  padding: 35px 15px;
+  border: 0;
 }
 
 .region-footer .block {
   position: relative;
   float: left;
   width: 25%;
+  color: #212121;
 }
 
 .region-footer .block h2 {
@@ -31,6 +54,10 @@ footer {
   margin-top: 0;
 }
 
+.region-footer .block a {
+  color: #212121;
+}
+
 footer section#block-block-1 {
-  margin-top: 250px;
+  margin-top: 260px;
 }
