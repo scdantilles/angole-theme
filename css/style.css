@@ -1,3 +1,18 @@
+body {
+  font-size: 18px;
+}
+
+header#page-header .region-header .form-control {
+  border-color: #979797;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2) inset;
+}
+
+header#page-header .region-header .form-control:focus {
+  border-color: #fa9900;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0) inset, 0 0 8px #fa9900;
+  outline: 0 none;
+}
+
 header#titlebar .logo {
   line-height: 100px;
   margin: 0;
@@ -25,6 +40,20 @@ header#page-header .region-header label {
   display: none;
 }
 
+header#page-header .region-header button {
+  border-color: #c77a00;
+  text-transform: uppercase;
+  color: white;
+  background-color: #fa9900;
+}
+header#page-header .region-header button:hover {
+  background-color: #e08900;
+}
+
+header#page-header .region-header .block-scdprimo {
+  margin-bottom: 15px;
+}
+
 header#navbar {
   background-color: #1d8699;
   color: white;
@@ -32,8 +61,44 @@ header#navbar {
 }
 
 header#navbar a {
-  font-size: 18px;
-  color: white;
+  background-color: #1d8699;
+  color: #EDEDED;
+}
+
+header#navbar a:hover {
+  background-color: #187080;
+}
+
+@media (min-width: 768px) {
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  table#todaypole td {
+    padding: 16px;
+  }
+}
+
+table#todaypole td {
+  text-align: center;
+}
+table#todaypole td:first-child {
+  border-right: 0;
+  text-align: left;
+}
+table#todaypole td:nth-child(2) {
+  border-left: 0;
+}
+
+#block-menu-menu-front-menu {
+  margin-top: 35px;
+}
+
+#block-menu-menu-front-menu li.leaf {
+  border: solid 2px #e8e3e3;
+  width: 20%;
+  margin: 15px 6%;
+  float: left;
 }
 
 .footer {
@@ -50,7 +115,7 @@ header#navbar a {
 }
 
 .region-footer .block h2 {
-  font-size: 20px;
+  font-size: 24px;
   margin-top: 0;
 }
 
@@ -59,5 +124,6 @@ header#navbar a {
 }
 
 footer section#block-block-1 {
-  margin-top: 260px;
+  margin-top: 275px;
+  font-size: 15px;
 }
