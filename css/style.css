@@ -1,5 +1,15 @@
-body {
-  font-size: 18px;
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+a {
+  color: #1d8699;
+}
+
+a:hover {
+  color: #187080;
 }
 
 header#page-header .region-header .form-control {
@@ -33,7 +43,12 @@ header#page-header {
 }
 
 header#page-header .region-header {
-  padding: 30px 15%;
+  padding: 15px 0;
+}
+@media (min-width: 768px) {
+  header#page-header .region-header {
+    padding: 30px 15%;
+  }
 }
 
 header#page-header .region-header label {
@@ -65,8 +80,22 @@ header#navbar a {
   color: #EDEDED;
 }
 
-header#navbar a:hover {
+header#navbar a:hover,
+header#navbar a.dropdown-toggle.active[aria-expanded=true] {
   background-color: #187080;
+}
+
+header#navbar ul.dropdown-menu {
+  background-color: #187080;
+  border-color: #187080;
+}
+
+header#navbar ul.dropdown-menu a {
+  background-color: #187080;
+}
+
+header#navbar ul.dropdown-menu a:hover {
+  background-color: #135966;
 }
 
 @media (min-width: 768px) {
@@ -90,15 +119,19 @@ table#todaypole td:nth-child(2) {
   border-left: 0;
 }
 
-#block-menu-menu-front-menu {
-  margin-top: 35px;
+#block-menu-menu-front-menu ul {
+  margin: 0 -1.6666%;
 }
 
 #block-menu-menu-front-menu li.leaf {
   border: solid 2px #e8e3e3;
-  width: 20%;
-  margin: 15px 6%;
+  width: 30%;
+  margin: 15px 1.6666%;
   float: left;
+}
+
+#block-menu-menu-front-menu li.leaf a {
+  text-align: center;
 }
 
 .footer {
@@ -127,3 +160,55 @@ footer section#block-block-1 {
   margin-top: 275px;
   font-size: 15px;
 }
+
+@media (max-width: 767px) {
+  header#titlebar .logo {
+    line-height: 50px;
+  }
+
+  header#titlebar .logo img {
+    width: 50%;
+  }
+  
+  header#titlebar .name {
+    font-size: 22px;
+    line-height: 50px;
+    height: 50px;
+    margin-left: 0px;
+  }
+
+  h2, .h2 {
+    font-size: 20px;
+  }
+
+  section#block-menu-menu-front-menu {
+    margin: 0 0 20px 0;
+  }
+
+  section#block-menu-menu-front-menu ul {
+    margin: 0 -1%;
+  }
+
+  section#block-menu-menu-front-menu li.leaf {
+    width: 48%;
+    margin: 2px 1%;
+  }
+
+  .region-footer section#block-menu-block-1,
+  .region-footer section#block-menu-block-2,
+  .region-footer section#block-views-libraries-block {
+    display: none;
+  }
+
+  .region-footer section#block-block-1 {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  .footer {
+    padding: 15px 0;
+    margin: 0;
+  }
+}
+
+
