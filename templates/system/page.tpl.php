@@ -97,7 +97,7 @@
   </div>
 </header> <!-- /#page-header -->
 
-<header id="navbar" role="banner" class="navbar-inverse">
+<header id="navbar" role="banner">
   <div class="<?php print $container_class; ?>">
     <div class="navbar-header">
       <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>

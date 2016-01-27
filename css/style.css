@@ -92,6 +92,8 @@ header#navbar ul.dropdown-menu {
 
 header#navbar ul.dropdown-menu a {
   background-color: #187080;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 header#navbar ul.dropdown-menu a:hover {
@@ -103,13 +105,14 @@ header#navbar ul.dropdown-menu a:hover {
     padding-left: 0;
     padding-right: 0;
   }
-  table#todaypole td {
-    padding: 16px;
+  #block-menu-menu-sites {
+    display: none;
   }
 }
 
-table#todaypole td {
+#todaypole td {
   text-align: center;
+  padding: 16px;
 }
 table#todaypole td:first-child {
   border-right: 0;
@@ -117,6 +120,19 @@ table#todaypole td:first-child {
 }
 table#todaypole td:nth-child(2) {
   border-left: 0;
+}
+
+div#todaypole table,
+div#todaypole table tr:first-child td {
+  border-top: 0;
+}
+div#todaypole ul.nav-tabs {
+  margin-bottom: 0;
+}
+div#todaypole ul.nav-tabs li {
+  max-width: 27%;
+  overflow-x: hidden;
+  white-space: nowrap;
 }
 
 #block-menu-menu-front-menu ul {
@@ -132,6 +148,22 @@ table#todaypole td:nth-child(2) {
 
 #block-menu-menu-front-menu li.leaf a {
   text-align: center;
+}
+
+#block-menu-menu-sites li.leaf {
+  background-color: #fa9900;
+  border-radius: 6px;
+  border: 1px solid #c77a00;
+  margin: 15px 0;
+}
+
+#block-menu-menu-sites li.leaf a {
+  text-align: center;
+  color: white;
+}
+
+#block-menu-menu-sites li.leaf a:hover {
+  background-color: #e08900;
 }
 
 .footer {
@@ -177,12 +209,58 @@ footer section#block-block-1 {
     margin-left: 0px;
   }
 
+  header#navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: transparent;
+    z-index: 99;
+  }
+  header#navbar button.navbar-toggle {
+    border: 0;
+  }
+  header#navbar button.navbar-togglei:hover,
+  header#navbar button.navbar-togglei:focus {
+    background-color: white;
+  }
+  header#navbar button.navbar-toggle .icon-bar {
+    height: 3px;
+    border-radius: 2px;
+    background-color: #fa9900;
+  }
+  header#navbar .navbar-collapse {
+    margin-left: 30px;
+    border: 2px solid #e8e3e3;
+    border-radius: 2px;
+    background-color: white;
+    color: #212121;
+  }
+  header#navbar .navbar-collapse .navbar-nav>li>a {
+    background-color: white;
+    color: #212121;
+    font-weight: bold;
+  }
+  header#navbar a:hover, header#navbar a.dropdown-toggle.active[aria-expanded="true"] {
+    background-color: white;
+  }
+  header#navbar .navbar-collapse .dropdown-menu {
+    background-color: white;
+  }
+  header#navbar .navbar-collapse .dropdown-menu li a {
+    background-color: white;
+    color: #212121;
+  }
+
+  header#page-header {
+    margin-bottom: 15px;
+  }
+
   h2, .h2 {
     font-size: 20px;
   }
 
   section#block-menu-menu-front-menu {
-    margin: 0 0 20px 0;
+    margin: 0;
   }
 
   section#block-menu-menu-front-menu ul {
