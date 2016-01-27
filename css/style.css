@@ -191,6 +191,10 @@ div#todaypole ul.nav-tabs li {
   color: #212121;
 }
 
+.region-footer .block a:hover {
+  background-color: #28AFCD;
+}
+
 footer section#block-block-1 {
   margin-top: 275px;
   font-size: 15px;
