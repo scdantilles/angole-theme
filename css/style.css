@@ -189,6 +189,7 @@ div#todaypole ul.nav-tabs li {
 
 .region-footer .block a {
   color: #212121;
+  font-size: 16px;
 }
 
 .region-footer .block a:hover {
@@ -198,6 +199,14 @@ div#todaypole ul.nav-tabs li {
 footer section#block-block-1 {
   margin-top: 275px;
   font-size: 15px;
+}
+
+.footer section {
+  padding: 0 10px;
+}
+
+.footer ul.nav {
+  border-right: 2px solid #E8E3E3;
 }
 
 @media (max-width: 767px) {
