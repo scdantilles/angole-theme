@@ -126,6 +126,9 @@ div#todaypole table,
 div#todaypole table tr:first-child td {
   border-top: 0;
 }
+div#todaypole table tr:first-child td {
+  font-size: 20px;
+}
 div#todaypole ul.nav-tabs {
   margin-bottom: 0;
 }
