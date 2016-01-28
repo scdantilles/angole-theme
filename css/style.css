@@ -202,10 +202,11 @@ footer section#block-block-1 {
 }
 
 .footer section {
-  padding: 0 10px;
+  padding-left: 10px;
 }
 
 .footer ul.nav {
+  padding-right: 10px;
   border-right: 2px solid #E8E3E3;
 }
 
