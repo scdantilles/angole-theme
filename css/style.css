@@ -211,6 +211,31 @@ footer section#block-block-1 {
   border-right: 2px solid #E8E3E3;
 }
 
+.region-sidebar-second section {
+  margin-bottom: 30px;
+}
+
+.region-sidebar-second section#block-user-login {
+  padding: 15px;
+  border: 1px solid #ddd;
+  background-color: #eee;
+}
+
+.twitter-btn {
+  background-color: #2794e6;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.twitter-btn:hover {
+  color:white;
+  text-decoration: none;
+  background-color: #2383cc;
+}
+
 @media (max-width: 767px) {
   header#titlebar .logo {
     line-height: 50px;
