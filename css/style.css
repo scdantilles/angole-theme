@@ -1,5 +1,6 @@
 @media (min-width: 768px) {
-  body {
+  body,
+  .btn {
     font-size: 18px;
   }
 }
@@ -14,6 +15,35 @@ a:hover {
 
 h1.page-header {
   border: none;
+}
+
+.date-display-range {
+  display: inline;
+}
+
+.btn-more {
+  border-color: #c77a00;
+  color: white;
+  background-color: #fa9900;
+}
+
+.btn-more:hover {
+  background-color: #e08900;
+  color: white;
+  border-color: #c77a00;
+}
+
+.card {
+  background-color: #efeaea;
+  border: solid 1px #b4b4b4;
+  border-radius: 2px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+.view-carte-formateur {
+  margin: 30px 0;
 }
 
 header#page-header .region-header .form-control {
