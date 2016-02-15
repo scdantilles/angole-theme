@@ -17,34 +17,7 @@ h1.page-header {
   border: none;
 }
 
-.date-display-range {
-  display: inline;
-}
-
-.btn-more {
-  border-color: #c77a00;
-  color: white;
-  background-color: #fa9900;
-}
-
-.btn-more:hover {
-  background-color: #e08900;
-  color: white;
-  border-color: #c77a00;
-}
-
-.card {
-  background-color: #efeaea;
-  border: solid 1px #b4b4b4;
-  border-radius: 2px;
-  padding: 15px;
-  margin: 20px;
-  box-shadow: 0 1px 1px rgba(0,0,0,0.4);
-}
-
-.view-carte-formateur {
-  margin: 30px 0;
-}
+/* Header */
 
 header#page-header .region-header .form-control {
   border-color: #979797;
@@ -144,6 +117,8 @@ header#navbar ul.dropdown-menu a:hover {
   }
 }
 
+/* Frontpage */
+
 #todaypole td {
   text-align: center;
   padding: 16px;
@@ -203,6 +178,43 @@ div#todaypole ul.nav-tabs li {
   background-color: #e08900;
 }
 
+/* Formations */
+
+.date-display-range {
+  display: inline;
+}
+
+.btn-more {
+  border-color: #c77a00;
+  color: white;
+  background-color: #fa9900;
+}
+
+.btn-more:hover {
+  background-color: #e08900;
+  color: white;
+  border-color: #c77a00;
+}
+
+.card {
+  background-color: #efeaea;
+  border: solid 1px #b4b4b4;
+  border-radius: 2px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+.card .btn {
+  margin-top: 20px;
+}
+
+.view-carte-formateur {
+  margin: 30px 0;
+}
+
+/* Footer */
+
 .footer {
   background-color: #a3e7f0;
   padding: 35px 15px;
@@ -245,6 +257,8 @@ footer section#block-block-1 {
   border-right: 2px solid #E8E3E3;
 }
 
+/* Sidebar */
+
 .region-sidebar-second section {
   margin-bottom: 30px;
 }
@@ -270,10 +284,13 @@ footer section#block-block-1 {
   background-color: #2383cc;
 }
 
-.btn-venir {
-  margin: 20px 0;
+.btn-grey {
   background-color: #efefef;
   box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+.btn-venir {
+  margin: 20px 0;
 }
 
 #block-views-biblioth-ques-similaires-block .block-title {
