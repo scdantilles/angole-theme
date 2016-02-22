@@ -147,6 +147,11 @@ div#todaypole ul.nav-tabs li {
   white-space: nowrap;
 }
 
+#todaypole .thisweeklib td {
+  text-align: left;
+  color: #555;
+}
+
 #block-menu-menu-front-menu ul {
   margin: 0 -1.6666%;
 }
