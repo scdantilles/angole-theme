@@ -152,6 +152,11 @@ div#todaypole ul.nav-tabs li {
   color: #555;
 }
 
+#todaypole .thisweeklib td p {
+  width: 50%;
+  float: left;
+}
+
 #block-menu-menu-front-menu ul {
   margin: 0 -1.6666%;
 }
@@ -268,7 +273,8 @@ footer section#block-block-1 {
   margin-bottom: 30px;
 }
 
-.region-sidebar-second section#block-user-login {
+.region-sidebar-second section#block-user-login,
+.region-sidebar-second section#block-system-user-menu {
   padding: 15px;
   border: 1px solid #ddd;
   background-color: #eee;
@@ -412,6 +418,10 @@ footer section#block-block-1 {
   section#block-menu-menu-front-menu li.leaf {
     width: 48%;
     margin: 2px 1%;
+  }
+
+  #todaypole .thisweeklib td p {
+    width: 100%;
   }
 
   .region-footer section#block-menu-block-1,
