@@ -398,6 +398,9 @@ footer section#block-block-1 {
     background-color: white;
     color: #212121;
   }
+  header#navbar .navbar-collapse ul.secondary {
+    display: none;
+  }
 
   header#page-header {
     margin-bottom: 15px;
