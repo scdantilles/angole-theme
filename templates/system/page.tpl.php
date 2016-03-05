@@ -172,10 +172,13 @@
   </div>
 </div>
 
-<?php if (!empty($page['footer'])): ?>
-  <footer class="footer">
+<footer class="footer">
   <div class="<?php print $container_class; ?>">
-    <?php print render($page['footer']); ?>
+    <div class="row">
+      <div class="col col-sm-6 col-md-3"><?php print render($page['footer1']); ?></div>
+      <div class="col col-sm-6 col-md-3"><?php print render($page['footer2']); ?></div>
+      <div class="col col-sm-6 col-md-3"><?php print render($page['footer3']); ?></div>
+      <div class="col col-sm-6 col-md-3"><?php print render($page['footer4']); ?></div>
+    </div>
   </div>
-  </footer>
-<?php endif; ?>
+</footer>
