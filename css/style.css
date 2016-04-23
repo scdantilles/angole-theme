@@ -121,14 +121,20 @@ header#navbar ul.dropdown-menu a:hover {
 
 #todaypole td {
   text-align: center;
-  padding: 16px;
+  padding: 16px 4px;
+}
+table#todaypole {
+  border: 2px solid white;
+}
+table#todaypole td {
+  vertical-align: middle;
 }
 table#todaypole td:first-child {
-  border-right: 0;
   text-align: left;
+  padding-left: 0;
 }
-table#todaypole td:nth-child(2) {
-  border-left: 0;
+table#todaypole td:last-child {
+  padding-right: 0;
 }
 
 div#todaypole table,
@@ -300,6 +306,14 @@ div#todaypole ul.nav-tabs li {
 .btn-grey {
   background-color: #efefef;
   box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+.btn-white {
+  border-radius: 2px;
+  border-color: #969696;
+  background-color: white;
+  box-shadow: 0 2px 3px #969696;
+  padding: 5px 20px;
 }
 
 .btn-venir {
