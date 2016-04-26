@@ -170,6 +170,20 @@
     <?php endif; ?>
 
   </div>
+
+  <div class="row">
+    <?php if (!empty($page['content_left'])): ?>
+      <aside class="col-lg-6" role="complementary">
+        <?php print render($page['content_left']); ?>
+      </aside>  <!-- /#content-left -->
+    <?php endif; ?>
+    <?php if (!empty($page['content_right'])): ?>
+      <aside class="col-lg-6" role="complementary">
+        <?php print render($page['content_right']); ?>
+      </aside>  <!-- /#content-right -->
+    <?php endif; ?>
+  </div>
+
 </div>
 
 <footer class="footer">

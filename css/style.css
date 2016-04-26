@@ -3,6 +3,11 @@
   .btn {
     font-size: 18px;
   }
+
+  .main-container,
+  .main-container .btn {
+     font-size: 16px;
+  }
 }
 
 a {
@@ -225,8 +230,43 @@ div#todaypole ul.nav-tabs li {
   margin-top: 20px;
 }
 
+.phd-workshop {
+  padding: 15px 0;
+  margin: 20px;
+  border-top: solid 1px #ddd;
+}
+
 .view-carte-formateur {
   margin: 30px 0;
+}
+
+/* Venir */
+
+body.page-venir .view-venir {
+  display: none;
+}
+
+body.page-venir .views-field-field-location {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+body.page-venir h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+body.page-venir .view-google-map-biblioth-que .views-field-field-guide-bibliotheque {
+  margin: 20px 0;
+}
+
+body.page-venir #block-scdcalendar-thisweeklib p {
+  width: 50%;
+  float: left;
+}
+
+body.page-venir #block-block-6 {
+  margin-bottom: 20px;
+  padding: 0 20px;
 }
 
 /* Footer */
@@ -338,10 +378,6 @@ div#todaypole ul.nav-tabs li {
   color: white;
   border-color: rgba(9, 114, 133, 0.7);
   background-color: rgba(20, 155, 185, 1.0);
-}
-
-.btn-venir {
-  margin: 20px 0;
 }
 
 /* Voir aussi */
