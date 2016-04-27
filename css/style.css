@@ -10,6 +10,14 @@
   }
 }
 
+.main-container {
+  color: #717171;
+}
+
+h1, h2 {
+  color: #222020;
+}
+
 a {
   color: #1d8699;
 }
@@ -20,6 +28,10 @@ a:hover {
 
 h1.page-header {
   border: none;
+}
+
+div.days {
+  padding: 0 20px;
 }
 
 /* Header */
@@ -123,6 +135,10 @@ header#navbar ul.dropdown-menu a:hover {
 }
 
 /* Frontpage */
+
+#todaypole {
+  color: #222020;
+}
 
 #todaypole td {
   text-align: center;
