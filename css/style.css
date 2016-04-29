@@ -157,6 +157,9 @@ table#todaypole td:first-child {
 table#todaypole td:last-child {
   padding-right: 0;
 }
+table#todaypole span.next-days {
+  cursor: pointer;
+}
 
 div#todaypole table,
 div#todaypole table tr:first-child td {
@@ -435,6 +438,28 @@ body.page-venir #block-block-6 {
   padding: 10px;
 }
 
+.webform-component {
+  padding: 10px 0;
+}
+
+.highlighted.jumbotron select {
+  width: 100%;
+}
+.highlighted.jumbotron input,
+.highlighted.jumbotron textarea {
+  border: none;
+}
+
+.highlighted.jumbotron .form-actions {
+  text-align: right;
+}
+.highlighted.jumbotron button {
+  background: #fa9900;
+  border: none;
+  text-transform: uppercase;
+}
+
+
 @media (max-width: 991px) {
   .footer .col:nth-child(2) {
     border: none;
@@ -455,7 +480,12 @@ body.page-venir #block-block-6 {
     font-size: 22px;
     line-height: 50px;
     height: 50px;
-    margin-left: 0px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    margin-left: -15px;
   }
 
   header#navbar {
@@ -506,6 +536,18 @@ body.page-venir #block-block-6 {
 
   header#page-header {
     margin-bottom: 15px;
+    background: none;
+    color: #717171;
+  }
+
+  .highlighted.jumbotron {
+    margin: 0 -15px 25px -15px;
+    padding: 15px;
+    border-radius: 0;
+    background: #008497;
+  }
+  .highlighted.jumbotron h2 {
+    color: white;
   }
 
   h2, .h2 {
