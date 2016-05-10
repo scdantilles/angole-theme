@@ -459,6 +459,13 @@ body.page-venir #block-block-6 {
   text-transform: uppercase;
 }
 
+.page-node-16 .field-name-field-is-useful {
+  display: none;
+}
+
+.field-name-field-is-useful {
+  margin-top: 20px;
+}
 
 @media (max-width: 991px) {
   .footer .col:nth-child(2) {
