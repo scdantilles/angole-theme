@@ -218,6 +218,12 @@ div#todaypole ul.nav-tabs li {
   background-color: #e08900;
 }
 
+.view-disciplines a.btn {
+  margin: 5px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /* Formations */
 
 .date-display-range {
