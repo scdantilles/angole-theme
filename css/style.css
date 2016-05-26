@@ -8,6 +8,11 @@
   .main-container .btn {
      font-size: 16px;
   }
+
+  /* Hide the jumbotron on desktop, we want to display the contact form on mobiles only */
+  .highlighted.jumbotron {
+    display: none;
+  }
 }
 
 .main-container {
