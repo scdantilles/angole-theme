@@ -286,9 +286,15 @@ div#todaypole ul.nav-tabs>li.active>a {
 }
 
 .phd-workshop {
-  padding: 15px 0;
+  padding-bottom: 15px;
   margin: 20px;
-  border-top: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+  min-height: 60px;
+}
+.phd-workshop i {
+  font-size: 50px !important;
+  float: left !important;
+  margin-right: 20px;
 }
 
 .view-carte-formateur {
