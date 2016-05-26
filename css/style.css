@@ -173,12 +173,21 @@ div#todaypole table tr:first-child td {
 div#todaypole table tr:first-child td {
   font-size: 20px;
 }
+div#todaypole table a {
+  color: black;
+}
+div#todaypole table td.col-xs-6:hover {
+  background: #eee;
+}
+div#todaypole table td.col-xs-6 a {
+  text-decoration: none;
+  display: block;
+}
 div#todaypole ul.nav-tabs {
   margin-bottom: 0;
 }
 div#todaypole ul.nav-tabs li {
   width: 25%;
-  /*max-width: 27%;*/
   overflow-x: hidden;
   white-space: nowrap;
 }
@@ -191,7 +200,7 @@ div#todaypole ul.nav-tabs>li>a {
   color: black;
 }
 div#todaypole ul.nav-tabs>li:hover>a {
-  background: #efefef;
+  background: #f8f8f8;
 }
 div#todaypole ul.nav-tabs>li.active>a {
   background: white;
