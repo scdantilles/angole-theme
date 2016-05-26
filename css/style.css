@@ -177,9 +177,25 @@ div#todaypole ul.nav-tabs {
   margin-bottom: 0;
 }
 div#todaypole ul.nav-tabs li {
-  max-width: 27%;
+  width: 25%;
+  /*max-width: 27%;*/
   overflow-x: hidden;
   white-space: nowrap;
+}
+div#todaypole ul.nav-tabs>li>a {
+  border-radius: 0;
+  background: #eaeaea;
+  margin: 0;
+  border: solid 1px #ddd;
+  text-align: center;
+  color: black;
+}
+div#todaypole ul.nav-tabs>li:hover>a {
+  background: #efefef;
+}
+div#todaypole ul.nav-tabs>li.active>a {
+  background: white;
+  border-bottom: solid 1px transparent;
 }
 
 #todaypole .thisweeklib td {
@@ -376,6 +392,8 @@ body.page-venir #block-block-6 {
 .btn-grey {
   background-color: #efefef;
   box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  color: #505050; 
+  text-shadow: 0 0 5px white;
 }
 
 .btn-primary {
