@@ -330,6 +330,25 @@ body.page-venir #block-block-6 {
   padding: 0 20px;
 }
 
+/* Discipline */
+
+.bouquet {
+  border-radius: 2px;
+  padding: 15px;
+  margin: 20px 0;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+.bouquet h3 {
+  margin: 5px 0 15px 0;
+}
+
+.bouquet .views-field-view-node a {
+  color: #fa9900;
+  display: block;
+  padding: 15px 0 0 0;
+}
+
 /* Footer */
 
 .footer {
