@@ -297,6 +297,10 @@ div#todaypole ul.nav-tabs>li.active>a {
   margin-right: 20px;
 }
 
+.user-picture {
+  padding: 0 1.5em 0 0;  
+}
+
 .view-carte-formateur {
   margin: 30px 0;
 }
