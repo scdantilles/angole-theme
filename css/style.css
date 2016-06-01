@@ -492,6 +492,10 @@ body.page-venir #block-block-6 {
   background-position: 0 50%;
 }
 
+.view-disciplines .views-row.views-row-last {
+  border: none;
+}
+
 /* Aide */
 
 #block-menu-menu-menu-de-l-aide ul.menu>li {
