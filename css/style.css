@@ -466,7 +466,7 @@ body.page-venir #block-block-6 {
   background-color: rgba(20, 155, 185, 1.0);
 }
 
-/* Voir aussi */
+/* Listes à fleches */
 
 #block-views-formations-similaires-block .block-title,
 #block-views-biblioth-ques-similaires-block .block-title {
@@ -481,6 +481,15 @@ body.page-venir #block-block-6 {
   background: url(list-arrow.png);
   background-repeat: no-repeat;
   background-size: auto 100%;
+}
+
+.view-disciplines .views-row {
+  border-bottom: solid 1px #ddd;
+  padding: 15px 0 15px 30px;
+  background: url(list-arrow.png);
+  background-repeat: no-repeat;
+  background-size: auto 50%;
+  background-position: 0 50%;
 }
 
 /* Aide */
