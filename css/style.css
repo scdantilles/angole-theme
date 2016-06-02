@@ -238,14 +238,24 @@ div#recherchetabs ul.nav-tabs>li.active>a {
 }
 
 #block-menu-menu-front-menu li.leaf {
-  border: solid 2px #e8e3e3;
   width: 30%;
   margin: 15px 1.6666%;
   float: left;
 }
 
 #block-menu-menu-front-menu li.leaf a {
-  text-align: center;
+  text-align: left;
+  background-color: #008497;
+  color: white;
+}
+#block-menu-menu-front-menu li.leaf a:hover {
+  background-color: #187080;
+}
+#block-menu-menu-front-menu li.leaf .description {
+  text-align: right;
+  background-color: #00accc;
+  color: white;
+  padding: 20px 10px 10px 10px;
 }
 
 #block-menu-menu-sites li.leaf {
