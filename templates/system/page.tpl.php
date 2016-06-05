@@ -186,7 +186,7 @@
 
 </div>
 
-<footer class="footer">
+<footer class="footer hidden-xs">
   <div class="<?php print $container_class; ?>">
     <div class="row">
       <div class="col col-sm-6 col-md-3"><?php print render($page['footer1']); ?></div>
@@ -196,3 +196,9 @@
     </div>
   </div>
 </footer>
+<div class="copyright">
+  <div class="<?php print $container_class; ?>">
+    <?php print render($page['copyright']); ?>
+  </div>
+</div>
+

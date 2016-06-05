@@ -21,6 +21,7 @@ regions[footer1]        = 'Footer 1'
 regions[footer2]        = 'Footer 2'
 regions[footer3]        = 'Footer 3'
 regions[footer4]        = 'Footer 4'
+regions[copyright]      = 'Copyright'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
 
