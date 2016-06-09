@@ -522,6 +522,72 @@ body.page-venir #block-block-6 {
   border: none;
 }
 
+/* Disciplines Desktop */
+
+.view-disciplines-desktop .discipline-card {
+  border: solid 1px #b4b4b4;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  margin-bottom: 30px;
+}
+
+.view-disciplines-desktop .views-field-name a {
+  padding: 15px;
+  display: block;
+  border-bottom: solid 1px #b4b4b4;
+  white-space: nowrap;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+}
+
+.view-disciplines-desktop .more-ressources {
+  padding: 10px 15px 15px 15px;
+}
+
+.view-disciplines-desktop .more-ressources a {
+  color: #fa9900;
+}
+
+.view-disciplines-desktop .ejournal-embed a,
+.view-disciplines-desktop .bdd-embed a,
+.view-disciplines-desktop .revue-embed a,
+.view-disciplines-desktop .ebook-embed a {
+  display: block;
+  padding: 10px 15px;
+  color: #6174e4;
+  white-space: nowrap;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+}
+
+.view-disciplines-desktop .ejournal-embed a:after,
+.view-disciplines-desktop .bdd-embed a:after,
+.view-disciplines-desktop .revue-embed a:after,
+.view-disciplines-desktop .ebook-embed a:after {
+   font-family: FontAwesome;
+   content: " \f08e";
+}
+
+.view-disciplines-desktop .ejournal-embed a:before {
+   font-family: FontAwesome;
+   content: "\f005  ";
+}
+
+.view-disciplines-desktop .bdd-embed a:before {
+   font-family: FontAwesome;
+   content: "\f1c0  ";
+}
+
+.view-disciplines-desktop .revue-embed a:before {
+   font-family: FontAwesome;
+   content: "\f1ea  ";
+}
+
+.view-disciplines-desktop .ebook-embed a:before {
+   font-family: FontAwesome;
+   content: "\f02d  ";
+}
+
 /* Aide */
 
 #block-menu-menu-menu-de-l-aide ul.menu>li {
