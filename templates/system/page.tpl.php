@@ -186,6 +186,16 @@
 
 </div>
 
+<footer class="prefooter hidden-xs">
+  <div class="<?php print $container_class; ?>">
+    <div class="row">
+      <div class="col col-sm-6 col-md-4"><?php print render($page['prefooter1']); ?></div>
+      <div class="col col-sm-6 col-md-4"><?php print render($page['prefooter2']); ?></div>
+      <div class="col col-sm-6 col-md-4"><?php print render($page['prefooter3']); ?></div>
+    </div>
+  </div>
+</footer>
+
 <footer class="footer hidden-xs">
   <div class="<?php print $container_class; ?>">
     <div class="row">

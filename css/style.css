@@ -522,6 +522,31 @@ body.page-venir #block-block-6 {
   border: none;
 }
 
+.prefooter h2 {
+  font-size: 24px;
+}
+
+.prefooter li {
+  padding: 10px 0 10px 30px;
+  background: url(list-arrow.png);
+  background-repeat: no-repeat;
+  background-size: auto 24px;
+  background-position: 0 12px;
+  font-size: 16px;
+}
+
+.prefooter li a {
+  display: inline;
+  padding: 0;
+  color: #212121;
+  font-size: 16px;
+}
+
+.prefooter li a:hover {
+  text-decoration: underline;
+  background: transparent;
+}
+
 /* Disciplines Desktop */
 
 .view-disciplines-desktop .discipline-card {
