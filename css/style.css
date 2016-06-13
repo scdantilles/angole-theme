@@ -146,11 +146,17 @@ header#navbar ul.dropdown-menu a:hover {
   color: #222020;
 }
 
+#todaypole .shadow-container,
+#recherchetabs .shadow-container {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+}
+
 #todaypole td,
 #recherchetabs td {
   text-align: center;
   padding: 16px 4px;
 }
+
 table#todaypole {
   border: 2px solid white;
 }
@@ -209,9 +215,17 @@ div#recherchetabs ul.nav-tabs>li>a {
   border-radius: 0;
   background: #eaeaea;
   margin: 0;
-  border: solid 1px #ddd;
+  border: solid 1px #b4b4b4;
   text-align: center;
   color: black;
+}
+div#todaypole ul.nav-tabs>li:nth-child(n+2)>a,
+div#recherchetabs ul.nav-tabs>li:nth-child(n+2)>a {
+  border-left: none;
+}
+div#todaypole .table-bordered td,
+div#recherchetabs .table-bordered td {
+  border: solid 1px #b4B4B4;
 }
 div#todaypole ul.nav-tabs>li:hover>a,
 div#recherchetabs ul.nav-tabs>li:hover>a {
@@ -304,7 +318,7 @@ div#recherchetabs ul.nav-tabs>li.active>a {
   border-radius: 2px;
   padding: 15px;
   margin: 20px;
-  box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.4);
 }
 
 .card .btn {
@@ -366,7 +380,7 @@ body.page-venir #block-block-6 {
   border-radius: 2px;
   padding: 15px;
   margin: 20px 0;
-  box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.4);
 }
 
 .bouquet h3 {
@@ -455,7 +469,7 @@ body.page-venir #block-block-6 {
 
 .btn-grey {
   background-color: #efefef;
-  box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.4);
   color: #505050; 
   text-shadow: 0 0 5px white;
 }
@@ -552,7 +566,7 @@ body.page-venir #block-block-6 {
 .view-disciplines-desktop .discipline-card {
   border: solid 1px #b4b4b4;
   border-radius: 2px;
-  box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.4);
   margin-bottom: 30px;
 }
 
@@ -563,6 +577,8 @@ body.page-venir #block-block-6 {
   white-space: nowrap;
   overflow: hidden; 
   text-overflow: ellipsis;
+  background-color: #1d8699;
+  color: white;
 }
 
 .view-disciplines-desktop .more-ressources {
