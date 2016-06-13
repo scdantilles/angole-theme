@@ -587,6 +587,13 @@ body.page-venir #block-block-6 {
 
 .view-disciplines-desktop .more-ressources a {
   color: #fa9900;
+  padding: 0.5em 1em;
+}
+
+.view-disciplines-desktop .more-ressources a:hover {
+  text-decoration: inherit;
+  background-color: rgba(29, 134, 153, 0.15);
+  border-radius: 2px;
 }
 
 .view-disciplines-desktop .ejournal-embed a,
