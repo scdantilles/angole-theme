@@ -84,13 +84,15 @@ header#page-header .region-header label {
   display: none;
 }
 
-header#page-header .region-header button {
+header#page-header .region-header button,
+#recherchetabs form#scdprimo-recherche-form button {
   border-color: #c77a00;
   text-transform: uppercase;
   color: white;
   background-color: #fa9900;
 }
-header#page-header .region-header button:hover {
+header#page-header .region-header button:hover,
+#recherchetabs form#scdprimo-recherche-form button:hover {
   background-color: #e08900;
 }
 
@@ -155,6 +157,10 @@ header#navbar ul.dropdown-menu a:hover {
 #recherchetabs td {
   text-align: center;
   padding: 16px 4px;
+}
+
+#recherchetabs form#scdprimo-recherche-form {
+  padding: 0 10px;
 }
 
 table#todaypole {
@@ -559,6 +565,15 @@ body.page-venir #block-block-6 {
 .prefooter li a:hover {
   text-decoration: underline;
   background: transparent;
+}
+
+a.arrowed {
+  display: block;
+  padding: 15px 0 15px 30px;
+  background: url(list-arrow.png);
+  background-repeat: no-repeat;
+  background-size: auto 26px;
+  background-position: 0 14px;
 }
 
 /* Disciplines Desktop */
