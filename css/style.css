@@ -35,8 +35,8 @@ h1.page-header {
   border: none;
 }
 
-div.days {
-  padding: 0 20px;
+div.day {
+  padding: 10px;
 }
 
 /* Header */
@@ -255,11 +255,6 @@ div#recherchetabs ul.nav-tabs>li.active>a {
   color: #555;
 }
 
-#todaypole .thisweeklib td p {
-  width: 50%;
-  float: left;
-}
-
 #block-menu-menu-front-menu ul {
   margin: 0 -1.6666%;
 }
@@ -364,22 +359,60 @@ body.page-venir .view-venir {
   display: none;
 }
 
-body.page-venir .views-field-field-location {
+body.page-venir .views-field-field-location,
+body.node-type-library .views-field-field-location {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-body.page-venir h2 {
+body.page-venir h2,
+body.node-type-library h2 {
   font-size: 20px;
   margin-bottom: 15px;
 }
 
-body.page-venir .view-google-map-biblioth-que .views-field-field-guide-bibliotheque {
+body.page-venir .view-google-map-biblioth-que .views-field-field-guide-bibliotheque,
+body.node-type-library .view-google-map-biblioth-que .views-field-field-guide-bibliotheque {
   margin: 20px 0;
 }
 
-body.page-venir #block-scdcalendar-thisweeklib p {
-  width: 50%;
-  float: left;
+body.node-type-library .view-presentation-bibliotheque .views-field-body {
+  background: #fdf7e1;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #f3af00;
+  color: #252525;
+  padding: 20px;
+}
+
+body.node-type-library .view-responsable-bibliotheque,
+body.node-type-library .view-adresse-bibliotheque {
+  margin-bottom: 20px;
+}
+
+body.node-type-library .view-responsable-bibliotheque table td {
+  padding: 5px 0;
+}
+body.node-type-library .view-responsable-bibliotheque .user-picture img {
+  height: 50px;
+}
+body.node-type-library .view-responsable-bibliotheque i.fa {
+  font-size: 35px;
+  color: black;
+}
+
+.view-lien-date-ouverture-annee {
+  margin-bottom: 20px;
+  border-bottom: solid 2px #cbcbcb;
+}
+
+.view-lien-date-ouverture-annee .views-field-nid a {
+  color: #5c5a5a;
+  display: block;
+  padding: 20px 0 20px 30px;
+  background: url(list-arrow.png);
+  background-repeat: no-repeat;
+  background-size: auto 50%;
+  background-position: 0 50%;
 }
 
 body.page-venir #block-block-6 {

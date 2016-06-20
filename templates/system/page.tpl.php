@@ -184,6 +184,19 @@
     <?php endif; ?>
   </div>
 
+  <div class="row">
+    <?php if (!empty($page['content_left2'])): ?>
+      <aside class="col-lg-6" role="complementary">
+        <?php print render($page['content_left2']); ?>
+      </aside>  <!-- /#content-left -->
+    <?php endif; ?>
+    <?php if (!empty($page['content_right2'])): ?>
+      <aside class="col-lg-6" role="complementary">
+        <?php print render($page['content_right2']); ?>
+      </aside>  <!-- /#content-right -->
+    <?php endif; ?>
+  </div>
+
 </div>
 
 <footer class="prefooter hidden-xs">
