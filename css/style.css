@@ -256,25 +256,20 @@ div#recherchetabs ul.nav-tabs>li.active>a {
   color: #555;
 }
 
-#block-menu-menu-front-menu ul {
-  margin: 0 -1.6666%;
+#block-menu-menu-front-menu .col {
+  margin-bottom: 15px;
 }
-
-#block-menu-menu-front-menu li.leaf {
-  width: 30%;
-  margin: 15px 1.6666%;
-  float: left;
-}
-
-#block-menu-menu-front-menu li.leaf a {
+#block-menu-menu-front-menu a {
+  display: block;
   text-align: left;
   background-color: #008497;
   color: white;
+  padding: 10px;
 }
-#block-menu-menu-front-menu li.leaf a:hover {
+#block-menu-menu-front-menu a:hover {
   background-color: #187080;
 }
-#block-menu-menu-front-menu li.leaf .description {
+#block-menu-menu-front-menu .description {
   text-align: right;
   background-color: #00accc;
   color: white;
@@ -847,19 +842,6 @@ a.arrowed {
 
   h2, .h2 {
     font-size: 20px;
-  }
-
-  section#block-menu-menu-front-menu {
-    margin: 0;
-  }
-
-  section#block-menu-menu-front-menu ul {
-    margin: 0 -1%;
-  }
-
-  section#block-menu-menu-front-menu li.leaf {
-    width: 98%;
-    margin: 2px 1%;
   }
 
   #todaypole .thisweeklib td p {
