@@ -751,6 +751,31 @@ a.arrowed {
   margin-top: 20px;
 }
 
+.is-useful-link.is-useful-maybe,
+.is-useful-link .count {
+  display: none;
+}
+
+.is-useful-link {
+  display: inline-block;
+  margin: 5px 10px 5px 0;
+}
+
+.is-useful-link a {
+  padding: 6px 12px;
+  display: inline-block;
+  color: #333;
+  background-color: #fff;
+  border: solid 1px #ccc;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.is-useful-link a:hover {
+  color: #333333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
 @media (max-width: 991px) {
   .footer .col:nth-child(2) {
     border: none;
