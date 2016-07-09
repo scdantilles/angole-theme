@@ -576,6 +576,14 @@ body.page-venir #block-block-6 {
   border: none;
 }
 
+#block-menu-menu-formations-voir-aussi ul.menu li a {
+  padding: 0 0 0 30px;
+  margin: 20px 0;
+  background: url(list-arrow.png);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
 .prefooter h2 {
   font-size: 24px;
 }
