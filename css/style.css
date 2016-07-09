@@ -96,10 +96,6 @@ header#page-header .region-header button:hover,
   background-color: #e08900;
 }
 
-header#page-header .region-header .block-scdprimo {
-  margin-bottom: 15px;
-}
-
 header#navbar {
   background-color: #1d8699;
   color: white;
@@ -727,6 +723,7 @@ a.arrowed {
   text-align: right;
 }
 .highlighted.jumbotron button {
+  color: white;
   background: #fa9900;
   border: none;
   text-transform: uppercase;
