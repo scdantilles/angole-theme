@@ -17,6 +17,6 @@ function angole_menu_link__menu_front_menu($variables) {
   }
   $output = l($element['#title'], $element['#href'], $element['#localized_options']);
   $output .= '<div class="description">' . $element['#original_link']['localized_options']['attributes']['title'] . '</div>';
-  return '<div class="col col-sm-4">' . $output . $sub_menu . "</div>\n";
+  return '<div class="col col-sm-4"><div class="frame">' . $output . $sub_menu . "</div></div>\n";
 }
 
