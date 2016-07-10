@@ -85,14 +85,14 @@ header#page-header .region-header label {
 }
 
 header#page-header .region-header button,
-#recherchetabs form#scdprimo-recherche-form button {
+#recherchetabs form button {
   border-color: #c77a00;
   text-transform: uppercase;
   color: white;
   background-color: #fa9900;
 }
 header#page-header .region-header button:hover,
-#recherchetabs form#scdprimo-recherche-form button:hover {
+#recherchetabs form button:hover {
   background-color: #e08900;
 }
 
@@ -163,7 +163,7 @@ header#navbar ul.dropdown-menu a:hover {
   padding: 16px 4px;
 }
 
-#recherchetabs form#scdprimo-recherche-form {
+#recherchetabs form {
   padding: 0 10px;
 }
 
