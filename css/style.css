@@ -400,12 +400,12 @@ body.node-type-library .view-responsable-bibliotheque i.fa {
   color: black;
 }
 
-.view-lien-date-ouverture-annee {
+#block-scdcalendar-thisyearlib {
   margin-bottom: 20px;
   border-bottom: solid 2px #cbcbcb;
 }
 
-.view-lien-date-ouverture-annee .views-field-nid a {
+#block-scdcalendar-thisyearlib a[data-toggle=modal] {
   color: #5c5a5a;
   display: block;
   padding: 20px 0 20px 30px;
@@ -413,6 +413,7 @@ body.node-type-library .view-responsable-bibliotheque i.fa {
   background-repeat: no-repeat;
   background-size: auto 50%;
   background-position: 0 50%;
+  cursor: pointer;
 }
 
 body.page-venir #block-block-6 {
