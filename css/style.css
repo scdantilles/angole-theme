@@ -687,16 +687,19 @@ a.arrowed {
    content: "\f005  ";
 }
 
+span.ressource-type-13:before,
 .view-disciplines-desktop .bdd-embed a:before {
    font-family: FontAwesome;
    content: "\f1c0  ";
 }
 
+span.ressource-type-12:before,
 .view-disciplines-desktop .revue-embed a:before {
    font-family: FontAwesome;
    content: "\f1ea  ";
 }
 
+span.ressource-type-18:before,
 .view-disciplines-desktop .ebook-embed a:before {
    font-family: FontAwesome;
    content: "\f02d  ";
@@ -777,6 +780,11 @@ a.arrowed {
   color: #333333;
   background-color: #e6e6e6;
   border-color: #adadad;
+}
+.is-useful-link.selected a {
+  border-color: #c77a00;
+  color: white;
+  background-color: #fa9900; 
 }
 
 @media (max-width: 991px) {
