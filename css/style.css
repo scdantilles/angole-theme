@@ -639,6 +639,7 @@ a.arrowed {
 
 /* Disciplines Desktop */
 
+.final-card,
 .view-disciplines-desktop .discipline-card {
   border: solid 1px #b4b4b4;
   border-radius: 2px;
@@ -646,6 +647,16 @@ a.arrowed {
   margin-bottom: 30px;
 }
 
+.final-card h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.final-card .cardbody {
+  padding: 15px;
+}
+
+.final-card h3 a,
 .view-disciplines-desktop .views-field-name a {
   padding: 15px;
   display: block;
