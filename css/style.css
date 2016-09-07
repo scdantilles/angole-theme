@@ -258,32 +258,6 @@ div#recherchetabs ul.nav-tabs>li.active>a {
   color: #555;
 }
 
-#block-menu-menu-front-menu .frame {
-  border-radius: 2px;
-  border: solid 1px rgba(29, 134, 153, 0.5);
-  background-color: rgba(40, 175, 205, 0.8);
-  box-shadow: 0 3px 5px rgba(29, 134, 153, 0.5);
-}
-#block-menu-menu-front-menu .col {
-  margin-bottom: 15px;
-}
-#block-menu-menu-front-menu a {
-  display: block;
-  text-align: left;
-  background-color: #008497;
-  color: white;
-  padding: 10px;
-}
-#block-menu-menu-front-menu a:hover {
-  background-color: #187080;
-}
-#block-menu-menu-front-menu .description {
-  text-align: right;
-  background-color: #00accc;
-  color: white;
-  padding: 20px 10px 10px 10px;
-}
-
 #block-menu-menu-sites li.leaf {
   background-color: #fa9900;
   border-radius: 6px;

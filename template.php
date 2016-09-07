@@ -15,8 +15,8 @@ function angole_menu_link__menu_front_menu($variables) {
   if ($element['#below']) {
     $sub_menu = drupal_render($element['#below']);
   }
-  $output = l($element['#title'], $element['#href'], $element['#localized_options']);
-  $output .= '<div class="description">' . $element['#original_link']['localized_options']['attributes']['title'] . '</div>';
-  return '<div class="col col-sm-4"><div class="frame">' . $output . $sub_menu . "</div></div>\n";
+  $output = '<h3>' . l($element['#title'], $element['#href'], $element['#localized_options']) . '</h3>';
+  $output .= '<div class="cardbody">' . $element['#original_link']['localized_options']['attributes']['title'] . '</div>';
+  return '<div class="col col-sm-4"><div class="final-card">' . $output . $sub_menu . "</div></div>\n";
 }
 
