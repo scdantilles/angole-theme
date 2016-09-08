@@ -888,6 +888,11 @@ span.ressource-type-18:before,
   #todaypole .thisweeklib td p {
     width: 100%;
   }
+  
+  .user-picture img {
+    margin: 0.2em 0 0.5em 0;
+    width: 50px;
+  }
 }
 
 /* Callouts */
