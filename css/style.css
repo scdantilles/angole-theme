@@ -303,6 +303,11 @@ div#recherchetabs ul.nav-tabs>li.active>a {
   border-color: #c77a00;
 }
 
+.btn.btn-default.btn-graduation-cap {
+    background-color: transparent;
+    border-color: transparent;
+}
+
 .card {
   background-color: #efeaea;
   border: solid 1px #b4b4b4;
