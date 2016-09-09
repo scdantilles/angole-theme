@@ -37,6 +37,10 @@ a:hover {
   color: #187080;
 }
 
+td {
+    padding: 0.3em;
+}
+
 h1.page-header {
   border: none;
 }
