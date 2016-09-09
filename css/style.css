@@ -280,6 +280,11 @@ div#recherchetabs ul.nav-tabs>li.active>a {
   text-overflow: ellipsis;
 }
 
+/* a view header inserted between title and content of a view  */
+.view-header {
+    margin-bottom: 1em;
+}
+
 /* Formations */
 
 .date-display-range {
