@@ -30,11 +30,11 @@ h1, h2 {
 }
 
 a {
-  color: #1d8699;
+  color: #007187;
 }
 
 a:hover {
-  color: #187080;
+  color: #005c6e;
 }
 
 td {
@@ -77,7 +77,7 @@ header#titlebar .name {
 }
 
 header#page-header {
-  background-color: #28afcd;
+  background-color: #009bba;
   color: white;
 }
 
@@ -107,28 +107,28 @@ header#page-header .region-header button:hover,
 }
 
 header#navbar {
-  background-color: #1d8699;
+  background-color: #007187;
   color: white;
   margin-bottom: 30px;
 }
 
 header#navbar a {
-  background-color: #1d8699;
+  background-color: #007187;
   color: #EDEDED;
 }
 
 header#navbar a:hover,
 header#navbar a.dropdown-toggle.active[aria-expanded=true] {
-  background-color: #187080;
+  background-color: #005c6e;
 }
 
 header#navbar ul.dropdown-menu {
-  background-color: #187080;
-  border-color: #187080;
+  background-color: #005c6e;
+  border-color: #005c6e;
 }
 
 header#navbar ul.dropdown-menu a {
-  background-color: #187080;
+  background-color: #005c6e;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -472,7 +472,7 @@ body.page-venir #block-block-6 {
 
 .copyright {
   font-size: 16px;
-  background-color: #1d8699;
+  background-color: #007187;
   color: white;
   padding: 20px 0;
 }
@@ -652,7 +652,7 @@ a.arrowed {
   white-space: nowrap;
   overflow: hidden; 
   text-overflow: ellipsis;
-  background-color: #1d8699;
+  background-color: #007187;
   color: white;
 }
 
@@ -717,7 +717,7 @@ span.ressource-type-18:before,
 /* Aide */
 
 #block-menu-menu-menu-de-l-aide ul.menu>li {
-  color: #1d8699;
+  color: #007187;
   border-bottom: 1px solid #ddd;
   padding: 15px 0;
   font-size: 20px;
