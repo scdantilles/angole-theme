@@ -552,11 +552,12 @@ body.page-venir #block-block-6 {
 .view-evenements-la-bu .views-row,
 .view-formations-la-bu .views-row,
 .view-biblioth-ques-similaires .views-row {
-  padding: 0 0 0 30px;
-  margin: 20px 0;
+  padding: 4px 0 4px 30px;
+  margin: 16px 0;
   background: url(list-arrow.png);
   background-repeat: no-repeat;
-  background-size: auto 100%;
+  background-size: auto 24px;
+  background-position: 0px 4px;
 }
 
 .view-disciplines .views-row {
@@ -564,8 +565,8 @@ body.page-venir #block-block-6 {
   padding: 15px 0 15px 30px;
   background: url(list-arrow.png);
   background-repeat: no-repeat;
-  background-size: auto 50%;
-  background-position: 0 50%;
+  background-size: auto 24px;
+  background-position: 0px 14px;
 }
 
 .view-disciplines .views-row.views-row-last {
