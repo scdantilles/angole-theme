@@ -3,6 +3,8 @@ Angole Drupal Theme
 
 This is a Boostrap subtheme based on the CDN starter kit.
 
+![Screenshot](screenshot.png)
+
 Custom Regions
 --------------
 
