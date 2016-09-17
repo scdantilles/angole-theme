@@ -2,6 +2,7 @@
 /**
  * @file
  * The primary PHP file for this theme.
+ * The two hooks implemented here are used to display the front-menu entries as cards.
  */
 
 function bootstrap_menu_tree__menu_front_menu(&$variables) {

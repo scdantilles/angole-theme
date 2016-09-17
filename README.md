@@ -1,29 +1,36 @@
-<!-- @file Instructions on how to sub-theme the Drupal Bootstrap base theme using the CDN Starterkit. -->
-<!-- @defgroup subtheme_cdn -->
-<!-- @ingroup subtheme -->
-# CDN Starterkit
+Angole Drupal Theme
+===================
 
-The CDN Starterkit is rather simple to set up. You don't have to do anything
-until you wish to override the default [Drupal Bootstrap] base theme settings
-or provide additional custom CSS.
+This is a Boostrap subtheme based on the CDN starter kit.
 
-- [Prerequisite](#prerequisite)
-- [Override Styles](#styles)
-- [Override Settings](#settings)
-- [Override Templates and Theme Functions](#registry)
+Custom Regions
+--------------
 
-## Prerequisite
-Read the @link subtheme Sub-theming @endlink parent topic.
+Used to display the search form in the blue header on BU Martinique and BU Guadeloupe:
 
-## Override Styles {#styles}
-Open `./subtheme/css/style.css` and modify the file to your liking.
+    regions[header]         = 'Top Bar'
 
-## Override Settings {#settings}
-Please refer to the @link subtheme_settings Sub-theme Settings @endlink topic.
+Used to build a two columns layout for the content type Bibliothèque:
 
-## Override Templates and Theme Functions {#registry}
-Please refer to the @link registry Theme Registry @endlink topic.
+    regions[content_left]   = 'Content Left'
+    regions[content_right]  = 'Content Right'
+    regions[content_left2]  = 'Content Left 2'
+    regions[content_right2] = 'Content Right 2'
 
-[Drupal Bootstrap]: https://www.drupal.org/project/bootstrap
-[Bootstrap Framework]: http://getbootstrap.com
-[jsDelivr CDN]: http://www.jsdelivr.com
+Used to build a three columns layout containing menus at the bottom of BU Recherche homepage:
+
+    regions[prefooter1]     = 'Pre Footer 1'
+    regions[prefooter2]     = 'Pre Footer 2'
+    regions[prefooter3]     = 'Pre Footer 3'
+
+For the four columns footer:
+
+    regions[footer1]        = 'Footer 1'
+    regions[footer2]        = 'Footer 2'
+    regions[footer3]        = 'Footer 3'
+    regions[footer4]        = 'Footer 4'
+
+The dark blue bar at the very bottom of the theme:
+
+    regions[copyright]      = 'Copyright'
+

@@ -1,5 +1,5 @@
 name = Angole
-description = Uses the jsDelivr CDN for all CSS and JavaScript. No source files or compiling is necessary and is recommended for simple sites or beginners.
+description = A white and blue theme made for univ-ag. It's a bootstrap subtheme using the CDN starter kit. We added additional regions to have a richer layout on some pages.
 core = 7.x
 base theme = bootstrap
 
