@@ -177,6 +177,8 @@ header#navbar ul.dropdown-menu a:hover {
   padding: 0 10px;
 }
 
+/* This is used for the desktop version of the theme */
+
 table#todaypole {
   border: 2px solid white;
 }
@@ -193,6 +195,8 @@ table#todaypole td:last-child {
 table#todaypole span.next-days {
   cursor: pointer;
 }
+
+/* This is used for the mobile version */
 
 div#todaypole table,
 div#recherchetabs table,
@@ -271,6 +275,8 @@ div#recherchetabs ul.nav-tabs>li.active>a {
   color: #555;
 }
 
+/* A menu linking to the 3 domains. Used on mobiles only. */
+
 #block-menu-menu-sites li.leaf {
   background-color: #fa9900;
   border-radius: 6px;
@@ -285,12 +291,6 @@ div#recherchetabs ul.nav-tabs>li.active>a {
 
 #block-menu-menu-sites li.leaf a:hover {
   background-color: #e08900;
-}
-
-.view-disciplines a.btn {
-  margin: 5px 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 /* a view header inserted between title and content of a view  */
@@ -429,25 +429,6 @@ body.node-type-library .view-responsable-bibliotheque i.fa {
 body.page-venir #block-block-6 {
   margin-bottom: 20px;
   padding: 20px;
-}
-
-/* Discipline */
-
-.bouquet {
-  border-radius: 2px;
-  padding: 15px;
-  margin: 20px 0;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.4);
-}
-
-.bouquet h3 {
-  margin: 5px 0 15px 0;
-}
-
-.bouquet .views-field-view-node a {
-  color: #fa9900;
-  display: block;
-  padding: 15px 0 0 0;
 }
 
 /* Footer */
