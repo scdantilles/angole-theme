@@ -36,3 +36,14 @@ The dark blue bar at the very bottom of the theme:
 
     regions[copyright]      = 'Copyright'
 
+Custom templates
+----------------
+
+Two menu hooks where implemented to display the front-menu as cards. The front-menu is a drupal menu displayed on the front pages of BU Martinique and BU Guadeloupe. We had to implement those hooks to display the menu entries descriptions in the body of the cards. This is done in `template.php`.
+
+`templates/system/page.tpl.php` and `templates/system/page.vars.php` where overriden to create the custom regions described above.
+
+Custom javascript
+-----------------
+
+[readmore.js](http://jedfoster.com/Readmore.js/) was used to manage overflows [on this kind of pages](http://buguadeloupe.univ-ag.fr/ebooks).
