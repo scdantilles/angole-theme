@@ -227,6 +227,15 @@ div#recherchetabs ul.nav-tabs li {
   overflow-x: hidden;
   white-space: nowrap;
 }
+.domain-bumartinique-univ-ag-fr div#todaypole ul.nav-tabs li {
+  width: 33.33333333%;
+}
+.domain-buguadeloupe-univ-ag-fr div#todaypole ul.nav-tabs li {
+  width: 23.33333333%;
+}
+.domain-buguadeloupe-univ-ag-fr div#todaypole ul.nav-tabs li:nth-child(3) {
+  width: 30%;
+}
 div#recherchetabs ul.nav-tabs li {
   width: 33.33333333%;
 }
