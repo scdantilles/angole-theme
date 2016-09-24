@@ -477,6 +477,15 @@ body.page-venir #block-block-6 {
   background-color: none;
 }
 
+.region-copyright #block-block-13 {
+	float:left	
+}
+
+#img-footer-logo-univ {
+	width: 75px;
+	margin-right: 1em;	
+}
+
 /* Sidebar */
 
 .region-sidebar-second section {
@@ -644,6 +653,11 @@ a.arrowed {
   text-overflow: ellipsis;
   background-color: #007187;
   color: white;
+}
+.final-card h3 a:hover,
+.view-disciplines-desktop .views-field-name a:hover {
+  background-color: #005c6e;
+  text-decoration: none;
 }
 
 .view-disciplines-desktop .more-ressources {
@@ -898,6 +912,10 @@ span.ressource-type-18:before,
     margin: 0.2em 0 0.5em 0;
     width: 50px;
   }
+
+  .visible-xs-block {
+    font-size: small;
+ }
 }
 
 /* Callouts */
