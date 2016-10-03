@@ -173,6 +173,10 @@ header#navbar ul.dropdown-menu a:hover {
   padding: 16px 4px;
 }
 
+#todaypole .nav-tabs > li > a {
+  padding: 10px 0;
+}
+
 #recherchetabs form {
   padding: 0 10px;
 }
@@ -235,10 +239,10 @@ div#recherchetabs ul.nav-tabs li {
   width: 33.33333333%;
 }
 .domain-buguadeloupe-univ-ag-fr div#todaypole ul.nav-tabs li {
-  width: 23.33333333%;
+  width: 22.33333333%;
 }
 .domain-buguadeloupe-univ-ag-fr div#todaypole ul.nav-tabs li:nth-child(3) {
-  width: 30%;
+  width: 33%;
 }
 div#recherchetabs ul.nav-tabs li {
   width: 33.33333333%;
