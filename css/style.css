@@ -299,48 +299,48 @@ div#recherchetabs ul.nav-tabs>li.active>a {
 
 /* a view header inserted between title and content of a view  */
 .view-header {
-    margin-bottom: 1em;
+  margin-bottom: 30px;
 }
 
 /* Formations */
-
 .date-display-range {
   display: inline;
 }
-
 .btn-more {
   border-color: #c77a00;
   color: white;
   background-color: #fa9900;
 }
-
 .btn-more:hover {
   background-color: #e08900;
   color: white;
   border-color: #c77a00;
 }
-
 .graduation-cap {
   color: #333;
 }
-
 .card {
+  margin: 15px 0;
+  padding: 30px;
   background-color: #efeaea;
   border: solid 1px #b4b4b4;
-  border-radius: 2px;
-  padding: 15px;
-  /*margin: 20px;*/
-  box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+  border-radius: 2px;  box-shadow: 0 1px 2px rgba(0,0,0,0.4);
 }
-
+.formation-h2 {
+  font-size: 1.5em;
+  margin: 0 0 0.25em;
+}
 .card .row {
   margin-top: 20px;
 }
-
+.readmore {
+  margin: 15px 0;
+}
+/*
 .card .btn {
   margin-top: 20px;
 }
-
+*/
 .phd-workshop {
   padding-bottom: 15px;
   margin: 20px;
@@ -352,7 +352,6 @@ div#recherchetabs ul.nav-tabs>li.active>a {
   float: left !important;
   margin-right: 20px;
 }
-
 /*
 .user-picture {
   margin: 0 1.5em 0 0;
